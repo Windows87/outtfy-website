@@ -1,0 +1,31 @@
+#background-div {
+  width: 100%;
+  height: 70%;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#info-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  padding: 16px;
+  display: flex;
+  width: 60%;
+}
+
+.info-image {
+  width: 100px;
+  margin-right: 16px;
+}
+
+.info-text-container {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
