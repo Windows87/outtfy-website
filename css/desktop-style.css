@@ -16,12 +16,19 @@
 .info {
   padding: 16px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 60%;
 }
 
 .info-image {
   width: 100px;
   margin-right: 16px;
+}
+
+.info-text-container {
+  width: 100%;
+  max-width: 800px;
 }
 
 .info-text-container {
