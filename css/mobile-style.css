@@ -29,6 +29,7 @@
 .info-text-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .info-title, .info-text {
